@@ -1,4 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Startup Landing Page
+
+This project is an AI-driven SEO landing page built using Next.js, React, and Tailwind CSS. The page is designed to highlight the features of an AI-based SEO tool, with a modern, sleek, and responsive design. The landing page includes animations, an optimized layout, and user-friendly components.
+
+## Features
+
+- **Framer Motion**: Smooth animations for UI elements.
+- **Lottie Animations**: Animated illustrations using Lottie files.
+- **Tailwind CSS**: Utility-first CSS framework for responsive design.
+- **Next.js**: Server-side rendering for optimal performance.
+- **SEO Optimized**: Includes clean and semantic HTML for SEO.
+- **Fully Responsive**: Compatible with mobile, tablet, and desktop views.
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/ai-startup.git
+
 
 ## Getting Started
 
