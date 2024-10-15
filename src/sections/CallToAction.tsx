@@ -11,7 +11,6 @@ import {
   useTransform,
 } from "framer-motion";
 import { RefObject, useEffect, useRef } from "react";
-import { recordTraceEvents } from "next/dist/trace";
 
 const useRelativeMousePosition = (to: RefObject<HTMLElement>) => {
   const mouseX = useMotionValue(0);
@@ -32,7 +31,7 @@ const useRelativeMousePosition = (to: RefObject<HTMLElement>) => {
       window.addEventListener("mousemove", updateMousePosition);
     };
   }, []);
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   return [mouseX, mouseY];
 };
 

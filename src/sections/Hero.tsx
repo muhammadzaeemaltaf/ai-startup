@@ -2,7 +2,7 @@
 
 import Button from "@/components/Button";
 import starsBg from "@/assets/stars.png";
-import { motion, useMotionValueEvent, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 export const Hero = () => {
@@ -101,7 +101,7 @@ export const Hero = () => {
           AI SEO
         </h1>
         <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
-          Elevate your site's visibility effortlessly with AI, where smart
+          Elevate your site&#39;s visibility effortlessly with AI, where smart
           technology meets user-friendly SEO tools.
         </p>
         <div className="flex justify-center mt-5">
